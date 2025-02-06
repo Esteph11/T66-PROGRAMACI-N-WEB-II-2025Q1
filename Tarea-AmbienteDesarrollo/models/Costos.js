@@ -10,13 +10,13 @@ class Costos {
         let recargoPorPeso = 0;  
         let recargoPorDistancia = 0;  
 
-        // Calcular recargo por peso  
+       
         if (peso > 5) {  
             recargoPorPeso = (peso - 5) * this.cargoPorLBExcedente;  
             costoTotal += recargoPorPeso;  
         }  
 
-        // Calcular recargo por distancia  
+       
         if (distancia > 50) {  
             recargoPorDistancia = (distancia - 50) * this.costoPorKmExcedente;  
             costoTotal += recargoPorDistancia;  
